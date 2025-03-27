@@ -39,12 +39,6 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 
 Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testar as alterações em tempo real.
 
-## Deploy
-
-Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
-
-- [Portfólio Pessoal](https://miaelfk.github.io/atvgen-portfolio1)
-
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.

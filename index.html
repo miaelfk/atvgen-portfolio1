@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Sâmia França</title>
+    <style>
+        body {
+            background-color: #e1ddf4;
+            color: #514283;
+            font-family: "Comic Sans MS", cursive;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #514283;
+            color: #e1ddf4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #dfcff3;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .section {
+            flex-basis: calc(33% - 20px);
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 200px;
+            border: 3px solid #cac5ed;
+            border-radius: 50%;
+        }
+        h1, h2 {
+            color: #7D5B8C;
+            text-shadow: 2px 2px #f0c3e2;
+        }
+        .button {
+            background-color: #f0c3e2;
+            color: #514283;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+        }
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td {
+            border: 2px solid #514283;
+            padding: 10px;
+        }
+        footer {
+            background-color: #514283;
+            color: #e1ddf4;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sâmia França</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="section">
+                <h2>Seja bem-vindo(a)! 🖤💜</h2>
+                <img src="./assets/img/mia-gen.png" alt="Foto de Sâmia França">
+                <h2>Sobre mim</h2>
+                <p>Apaixonada por tecnologia e inovação, sou estudante de Engenharia da Computação com uma sólida formação em desenvolvimento Full Stack e especialização intensiva em Java pela Generation Brasil. Tenho experiência prática no desenvolvimento de APIs RESTful com Spring Boot e interfaces front-end dinâmicas utilizando React.js, além de domínio em metodologias ágeis (SCRUM). Recentemente, estou ampliando minhas competências técnicas e adquirindo habilidades em análise de dados e Python.</p>
+            </div>
+            <div class="section">
+                <h2>Informações</h2>
+                <table>
+                    <tr>
+                        <td>Profissão</td>
+                        <td>Desenvolvedora Full Stack</td>
+                    </tr>
+                    <tr>
+                        <td>Especialidade</td>
+                        <td>Java (Spring)</td>
+                    </tr>
+                    <tr>
+                        <td>Hobbies</td>
+                        <td>Games/Livros</td>
+                    </tr>
+                </table>
+                <h2>Minhas redes sociais</h2>
+                <a href="https://www.linkedin.com/in/samiaelfakihfranca/" target="_blank" class="button">LinkedIn</a>
+                <a href="https://github.com/miaelfk" target="_blank" class="button">GitHub</a>
+                <a href="https://www.instagram.com/miaelfk/" target="_blank" class="button">Instagram</a>
+            </div>
+            <div class="section">
+                <h2>Meu vídeo favorito</h2>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZsBuAtRPhEI" allowfullscreen></iframe>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>Feito com 🖤 por Sâmia - 2025</p>
+    </footer>
+</body>
+</html>

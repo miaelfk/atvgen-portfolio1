@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Sâmia França</title>
+    <style>
+        body {
+            background-color: #e1ddf4;
+            color: #514283;
+            font-family: "Comic Sans MS", cursive;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: #514283;
+            color: #e1ddf4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #dfcff3;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .section {
+            flex-basis: calc(50% - 20px);
+            margin-bottom: 20px;
+        }
+        h1, h2, h3 {
+            color: #7D5B8C;
+            text-shadow: 2px 2px #f0c3e2;
+        }
+        form {
+            max-width: 100%;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #cac5ed;
+            background-color: #f0c3e2;
+            color: #514283;
+            box-sizing: border-box;
+        }
+        .button {
+            background-color: #f0c3e2;
+            color: #514283;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        iframe {
+            width: 100%;
+            max-width: 400px;
+            height: 300px;
+            border: 0;
+        }
+        footer {
+            background-color: #514283;
+            color: #e1ddf4;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Entre em contato comigo!</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <div class="section">
+                <h3>Formulário de Contato</h3>
+                <form>
+                    <input type="text" name="nome" placeholder="Seu nome" required>
+                    <input type="email" name="email" placeholder="Seu email" required>
+                    <input type="text" name="assunto" placeholder="Assunto" required>
+                    <textarea name="mensagem" placeholder="Sua mensagem" required rows="5"></textarea>
+                    <button type="submit" class="button">Enviar</button>
+                </form>
+            </div>
+            <div class="section">
+                <h2>Endereço</h2>
+                <p>Brasil - São Paulo, SP</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467688.89495119266!2d-46.5952992!3d-23.6824124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2sS%C3%A3o%20Paulo%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1653941235000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>Feito com 💜 por Sâmia - 2025</p>
+    </footer>
+</body>
+</html>
